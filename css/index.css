@@ -26,6 +26,12 @@ html, body {
     margin-left: -320px;
     transform-origin: top;
     -webkit-transform-origin: top;
+    overflow: hidden;
+}
+#list{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 #sound{
     background: url("../img/song2.png") no-repeat 0 -4px;
@@ -44,6 +50,7 @@ html, body {
     width: 100%;
     height: 100%;
     position: absolute;
+    /*background: lightgoldenrodyellow;*/
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
